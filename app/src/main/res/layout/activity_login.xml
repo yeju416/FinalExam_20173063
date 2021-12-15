@@ -109,9 +109,10 @@
             android:id="@+id/NoneIDBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="144dp"
+            android:layout_marginLeft="140dp"
             android:layout_marginTop="480dp"
             android:background="#00ff0000"
+            android:onClick="NoneIDBtn"
             android:text="계정이 없습니까?"
             android:textColor="#FFFFFF"
             android:textSize="13dp" />
