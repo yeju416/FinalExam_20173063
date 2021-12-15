@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:background="#aaffffff"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/menu01Button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_round"
+            android:text="Spring"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/menu02Button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="30dp"
+            android:text="Summer"
+            android:textSize="14dp"
+            android:background= "@drawable/button_round"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/menu03Button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="30dp"
+            android:text="Winter"
+            android:textSize="14dp"
+            android:background= "@drawable/button_round"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="30dp"
+            android:text="BACK"
+            android:textSize="14dp"
+            android:background= "@drawable/button_round"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp"
+        android:text="From me to you"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#000000"
+        android:layout_marginTop="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="670dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/spring" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17dp"
+        android:text="봄에서부터 시작하는 이야기"
+        android:background="#7EB6B6B6"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="12dp"
+        android:textSize="12dp"
+        android:text="1년을 그리는 이야기를 만나볼 수 있습니다."
+        android:background="#7EB6B6B6"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17dp"
+        android:text="또 다른 이야기"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#000000"
+        android:layout_marginTop="600dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="626dp"
+            android:text="Hello Summer !!"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="616dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/summer" />
+
+    </LinearLayout>
+
+</RelativeLayout>
